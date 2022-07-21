@@ -1,0 +1,46 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+body {
+  background-image: url(https://www.issedu365.com/cdnpage/imagedata/product/beijing.jpg);
+  background-size: cover;
+  height: 5000px;
+}
+
+#app {
+  min-width: 1300px;
+}
+.el-header {
+  background-color: #fff;
+}
+.el-footer {
+  background-color: #333;
+  height: auto !important;
+}
+
+/* 主页各个模块左上角的title */
+.left-nav h1.title {
+  font-size: 24px;
+  color: #262626;
+  margin-right: 32px;
+  font-weight: 600;
+}
+/* 主页各个模块右上角的更多 */
+.right-more {
+    color: #787878;
+    background: #e6e6e6;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 24px;
+    min-width: 106px;
+    box-sizing: border-box;
+    padding: 0 8px;
+}
+.right-more h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
