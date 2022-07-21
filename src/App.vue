@@ -25,4 +25,7 @@ export default defineComponent({
 </script>
 
 <style>
+.el-main{
+  padding: 0;
+}
 </style>
