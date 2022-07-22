@@ -4,6 +4,7 @@ const routes: Array<RouteRecordRaw> = [
   // 根路径，重定向到首页
   {
     path: "/",
+    name:"root",
     redirect(to) {
       return { name: "application" };
     },
@@ -15,9 +16,8 @@ const routes: Array<RouteRecordRaw> = [
       // application根路径，重定向到appdashboard
       {
         path: "",
-        name:"application_root",
-        redirect(to) {
-          // return { name: "appdashboard" };
+        name:'app_root',
+        redirect:()=> {
           return { name: "appcourseintro" };
         },
       },

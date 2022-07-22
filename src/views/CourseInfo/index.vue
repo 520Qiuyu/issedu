@@ -84,72 +84,93 @@
         <div class="course-content">
           <!-- 课程列表 -->
           <div class="course-list">
-            <el-menu :default-openeds="[1, 2, 3, 4, 5, 6]">
+            <el-menu :default-openeds="['1']" :unique-opened="true">
               <el-sub-menu :index="'1'">
                 <template #title>
-                  <el-icon><location /></el-icon>
-                  <span>第一章</span>
+                  <span>第1章:Android系统架构介绍与环境搭建</span>
                 </template>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
+                <el-menu-item>01:Android基础技能培训课程介绍</el-menu-item>
+                <el-menu-item>02:d00-00-android开发环境安装视频</el-menu-item>
+                <el-menu-item>03:d00-01-安卓系统真机调试操作</el-menu-item>
+                <el-menu-item
+                  >04:d01-01-SDK目录介绍与用AS创建安卓程序</el-menu-item
+                >
+                <el-menu-item>05:d01-02-AS安卓项目目录介绍 </el-menu-item>
+                <el-menu-item>06:d01-03-adb命令与AS调试 </el-menu-item>
               </el-sub-menu>
               <el-sub-menu :index="'2'">
                 <template #title>
-                  <el-icon><location /></el-icon>
-                  <span>第二章</span>
+                  <span>第2章:AndroidUI详解1-布局和常用UI控件</span>
                 </template>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
+                <el-menu-item
+                  >07:d01-04-布局LinearLayout和权重(第一个练习程序)</el-menu-item
+                >
+                <el-menu-item>08:d01-05-布局LinearLayout重心介绍</el-menu-item>
+                <el-menu-item>09:d01-06-线性布局简单登陆界面作业</el-menu-item>
+                <el-menu-item>10:d01-07-相对布局与登陆界面作业</el-menu-item>
+                <el-menu-item
+                  >11:d01-08-更多布局与UI控件布局添加点击事件</el-menu-item
+                >
+                <el-menu-item>12:d01-09-UI控件代码添加点击事件</el-menu-item>
+                <el-menu-item>13:d01-10-Toast与Log的用法</el-menu-item>
               </el-sub-menu>
               <el-sub-menu :index="'3'">
                 <template #title>
-                  <el-icon><location /></el-icon>
-                  <span>第三章</span>
+                  <span>第3章:Android系统架构介绍与环境搭建</span>
                 </template>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
+                <el-menu-item>01:Android基础技能培训课程介绍</el-menu-item>
+                <el-menu-item>02:d00-00-android开发环境安装视频</el-menu-item>
+                <el-menu-item>03:d00-01-安卓系统真机调试操作</el-menu-item>
+                <el-menu-item
+                  >04:d01-01-SDK目录介绍与用AS创建安卓程序</el-menu-item
+                >
+                <el-menu-item>05:d01-02-AS安卓项目目录介绍 </el-menu-item>
+                <el-menu-item>06:d01-03-adb命令与AS调试 </el-menu-item>
               </el-sub-menu>
               <el-sub-menu :index="'4'">
                 <template #title>
-                  <el-icon><location /></el-icon>
-                  <span>第四章</span>
+                  <span>第4章:AndroidUI详解1-布局和常用UI控件</span>
                 </template>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
+                <el-menu-item
+                  >07:d01-04-布局LinearLayout和权重(第一个练习程序)</el-menu-item
+                >
+                <el-menu-item>08:d01-05-布局LinearLayout重心介绍</el-menu-item>
+                <el-menu-item>09:d01-06-线性布局简单登陆界面作业</el-menu-item>
+                <el-menu-item>10:d01-07-相对布局与登陆界面作业</el-menu-item>
+                <el-menu-item
+                  >11:d01-08-更多布局与UI控件布局添加点击事件</el-menu-item
+                >
+                <el-menu-item>12:d01-09-UI控件代码添加点击事件</el-menu-item>
+                <el-menu-item>13:d01-10-Toast与Log的用法</el-menu-item>
               </el-sub-menu>
               <el-sub-menu :index="'5'">
                 <template #title>
-                  <el-icon><location /></el-icon>
-                  <span>第五章</span>
+                  <span>第5章:Android系统架构介绍与环境搭建</span>
                 </template>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
+                <el-menu-item>01:Android基础技能培训课程介绍</el-menu-item>
+                <el-menu-item>02:d00-00-android开发环境安装视频</el-menu-item>
+                <el-menu-item>03:d00-01-安卓系统真机调试操作</el-menu-item>
+                <el-menu-item
+                  >04:d01-01-SDK目录介绍与用AS创建安卓程序</el-menu-item
+                >
+                <el-menu-item>05:d01-02-AS安卓项目目录介绍 </el-menu-item>
+                <el-menu-item>06:d01-03-adb命令与AS调试 </el-menu-item>
               </el-sub-menu>
               <el-sub-menu :index="'6'">
                 <template #title>
-                  <el-icon><location /></el-icon>
-                  <span>第一章</span>
+                  <span>第6章:AndroidUI详解1-布局和常用UI控件</span>
                 </template>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
-                <el-menu-item>安卓开发</el-menu-item>
+                <el-menu-item
+                  >07:d01-04-布局LinearLayout和权重(第一个练习程序)</el-menu-item
+                >
+                <el-menu-item>08:d01-05-布局LinearLayout重心介绍</el-menu-item>
+                <el-menu-item>09:d01-06-线性布局简单登陆界面作业</el-menu-item>
+                <el-menu-item>10:d01-07-相对布局与登陆界面作业</el-menu-item>
+                <el-menu-item
+                  >11:d01-08-更多布局与UI控件布局添加点击事件</el-menu-item
+                >
+                <el-menu-item>12:d01-09-UI控件代码添加点击事件</el-menu-item>
+                <el-menu-item>13:d01-10-Toast与Log的用法</el-menu-item>
               </el-sub-menu>
             </el-menu>
           </div>
@@ -167,6 +188,7 @@
               <el-avatar
                 :size="40"
                 :src="'https://365.issedu365.com/media/midocument/examineadmin/logo/mq47vly11zczzhe1.jpg'"
+                :fit="'cover'"
               />
             </div>
             <div class="teacher-name">
@@ -181,9 +203,15 @@
             <p class="top-title">课程联系人</p>
           </div>
           <ul class="contact-way-list">
-            <li class="contact-way-item">软通大学教学部</li>
-            <li class="contact-way-item">issedu-td@isoftstone.com</li>
-            <li class="contact-way-item">010-58749495</li>
+            <li class="contact-way-item">
+              <el-icon><User /></el-icon>软通大学教学部
+            </li>
+            <li class="contact-way-item">
+              <el-icon><ChatDotSquare /></el-icon>issedu-td@isoftstone.com
+            </li>
+            <li class="contact-way-item">
+              <el-icon><Phone /></el-icon>010-58749495
+            </li>
           </ul>
         </div>
         <!-- 学员信息 -->
@@ -193,27 +221,45 @@
           </div>
           <div class="student-list">
             <div class="student-show">
-              <el-avatar></el-avatar>
+              <el-avatar
+                :size="50"
+                :src="'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'"
+              ></el-avatar>
               <span>余双江</span>
             </div>
             <div class="student-show">
-              <el-avatar></el-avatar>
+              <el-avatar
+                :size="50"
+                :src="'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'"
+              ></el-avatar>
               <span>余双江</span>
             </div>
             <div class="student-show">
-              <el-avatar></el-avatar>
+              <el-avatar
+                :size="50"
+                :src="'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'"
+              ></el-avatar>
               <span>余双江</span>
             </div>
             <div class="student-show">
-              <el-avatar></el-avatar>
+              <el-avatar
+                :size="50"
+                :src="'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'"
+              ></el-avatar>
               <span>余双江</span>
             </div>
             <div class="student-show">
-              <el-avatar></el-avatar>
+              <el-avatar
+                :size="50"
+                :src="'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'"
+              ></el-avatar>
               <span>余双江</span>
             </div>
             <div class="student-show">
-              <el-avatar></el-avatar>
+              <el-avatar
+                :size="50"
+                :src="'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'"
+              ></el-avatar>
               <span>余双江</span>
             </div>
           </div>
@@ -411,35 +457,174 @@ export default defineComponent({
     display: flex;
     justify-content: space-between;
 
+    // 中间的课程tab
     .tab {
       width: 858px;
       overflow: hidden;
+
+      // tab上方的导航
+      & /deep/ .el-menu {
+        .el-menu-item {
+          margin-right: 24px;
+          a {
+            color: #0d1a26;
+            font-size: 16px;
+          }
+        }
+        .is-active{
+          background-color: transparent;
+        }
+      }
+
+      // 课程相关信息正文
+      .course-content {
+        padding: 20px;
+        background-color: #fff;
+
+        // 课程列表
+        .course-list {
+          // 各个章节的菜单
+          & /deep/ .el-menu {
+            border-right: none;
+
+            
+            // 章节子菜单
+            .el-sub-menu {
+              .el-sub-menu__title {
+                font-size: 18px;
+                color: #333;
+                background-color: transparent;
+                line-height: 64px;
+                height: 64px;
+                padding-left: 0;
+              }
+
+              .el-menu {
+                .el-menu-item {
+                  cursor: pointer;
+                  display: flex;
+                  padding: 20px 30px 20px 20px;
+                  height: 64px;
+                  box-sizing: border-box;
+                  color: #4d555d;
+                }
+              }
+            }
+
+            .is-open{
+              
+            }
+          }
+        }
+      }
     }
 
+    // 右侧教师信息
     .teacher-info-wrapper {
-      width: 280px;
-      flex-grow: 0;
-
+      width: 278px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      padding-bottom: 10px;
 
       & > div {
         background-color: #fff;
         display: flex;
         flex-direction: column;
         margin-bottom: 15px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
         border: 1px solid #e5eef3;
         border-radius: 5px;
+
+        & > div,
+        & > ul {
+          padding-left: 16px;
+          box-sizing: border-box;
+        }
+      }
+
+      .top-title-wrapper {
+        width: 100%;
+        height: 56px;
+        line-height: 56px;
+        color: #0d1a26;
+        font-size: 16px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       }
 
       .teacher-name-info {
+        .teacher-info {
+          height: 60px;
+          display: flex;
+          align-items: center;
+
+          & /deep/ .avatar {
+            height: 40px;
+            margin-right: 10px;
+
+            img {
+              width: 100%;
+              object-position: top;
+            }
+          }
+
+          .teacher-name {
+            color: #404040;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            line-height: 20px;
+          }
+        }
       }
 
       .teacher-contact-info {
+        .contact-way-list {
+          height: 70px;
+          color: #404040;
+
+          .contact-way-item {
+            line-height: 20px;
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+
+            i {
+              margin-right: 5px;
+            }
+          }
+        }
       }
 
       .students-info {
+        .top-title-wrapper {
+          border: none;
+        }
+        .student-list {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 5px 40px;
+          color: #404040;
+          padding: 0 16px;
+
+          .student-show {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & > span {
+              margin-bottom: 5px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              font-size: 12px;
+              text-align: center;
+            }
+          }
+        }
       }
     }
   }

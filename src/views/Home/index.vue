@@ -40,6 +40,7 @@ export default defineComponent({
 .dashboard-wrapper {
   background-image: url(https://www.issedu365.com/cdnpage/imagedata/product/beijing.jpg);
   background-size: cover;
+  padding-top: 20px;
   #dashboard {
     width: 1200px;
     margin: 0 auto;

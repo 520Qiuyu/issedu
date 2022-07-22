@@ -12,12 +12,12 @@
         mode="horizontal"
         :ellipsis="false"
         :router="true"
-        :default-active="'/home'"
+        :default-active="'/'"
         :active-text-color="`#4D555D`"
         :text-color="`#4D555D`"
         :background-color="`#fff`"
       >
-        <el-menu-item index="/home"><p>首页</p></el-menu-item>
+        <el-menu-item index="/application"><p>首页</p></el-menu-item>
         <el-menu-item index="2"><p>课程学习</p></el-menu-item>
         <el-menu-item index="3"><p>在线考试</p></el-menu-item>
         <el-menu-item index="4"><p>能力认证</p></el-menu-item>
